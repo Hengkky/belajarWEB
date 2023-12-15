@@ -3,76 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Contoh Tabel HTML dengan Formulir Input</title>
+    <link rel="stylesheet" href="style2.css" />
+    <style></style>
+    <title>Login Form</title>
   </head>
-  <script></script>
   <body>
-    <div class="atas">
-      <h2>MT.MERBABU</h2>
-      <h2>3.412 MDPL</h2>
+    <div class="login-container">
+      <h2>Login</h2>
+
+      <form action="login.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Login</button>
+        <h1></h1>
+        by Hengky Agus Setiawan
+      </form>
     </div>
-    <div class="container-navbar">
-      <b class="mt"></b>MT.MERBABU VIA SUWANTING.
-      <div><b class="htm"></b>HTM:RP 35.000</div>
-      <div><b class="creat"></b>by HENGKY AGUS SETIAWAN.</div>
 
-      <h2>REGISTRASI</h2>
-    </div>
-    <div class="parallax" id="parallaxContainer"></div>
-    <form>
-      <label for="Nama Depan">Nama Depan:</label>
-      <input type="text" id="Nama Depan" name="Nama Depan" required />
-
-      <label for="Nama Belakang">Nama Belakang:</label>
-      <input type="text" id="Nama Belakang" name="Nama Belakang" required />
-
-      <label for="Alamat">Alamat:</label>
-      <input type="text" id="Alamat" name="Alamat" required />
-
-      <label for="No Telepon">No Telepon:</label>
-      <input type="text" id="No Telepon" name="No Telepon" required />
-
-      <label for="Jumlah Anggota">Jumlah Anggota:</label>
-      <input type="text" id="Jumlah Anggota" name="JumlahAnggota" required />
-
-      <label for="Pembayaran">Pembayaran:</label>
-      <input type="text" id="Pembayaran" name="Pembayaran" required />
-
-      <label for="Tanggal Pendakian">Tanggal Pendakian:</label>
-      <input
-        type="text"
-        id="Tanggal Pendakian"
-        name="Tanggal Pendakian"
-        required
-      />
-    </form>
-    <div class="container">
-      <button class="button" type="submit" onclick="addData()">
-        Registrasi
-      </button>
-    </div>
-    <form action="login.html" method="post">
-      <button class="container-login" type="submit">LOGOUT</button>
-    </form>
-
-    <table id="data-table">
-      <thead>
-        <tr>
-          <th>Nama Depan</th>
-          <th>Nama Belakang</th>
-          <th>Alamat</th>
-          <th>No Telepon</th>
-          <th>Jumlah Anggota</th>
-          <th>Pembayaran</th>
-          <th>Tanggal Pendakian</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Data akan ditambahkan secara dinamis melalui JavaScript -->
-      </tbody>
-    </table>
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>
