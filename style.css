@@ -1,0 +1,95 @@
+.parallax {
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallaxContainer {
+  /* Tentukan ukuran dan posisi kontainer latar belakang */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Kirim ke latar belakang */
+  overflow: hidden;
+}
+.container-navbar {
+  background-color: transparent;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.atas {
+  width: 200px;
+  margin: auto;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  text-shadow: 2px 2px 4px rgba(7, 7, 7, 0.765); /* Adjust nilai-nilai ini sesuai kebutuhan */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #fff;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  width: 40%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Opsi: Set tinggi sesuai kebutuhan */
+}
+
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container-login {
+  color: white;
+  background-color: #3498db;
+}
